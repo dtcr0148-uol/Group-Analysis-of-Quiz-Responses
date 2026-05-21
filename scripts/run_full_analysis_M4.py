@@ -1,7 +1,9 @@
+import sys
+sys.path.append("scripts") 
+
 import data_preparation_M2 as M2
 import data_analysis_M3 as M3
 from data_extraction_M1 import extract_answers_sequence
-
 import os
 
 CLOUD_URL        = "https://raw.githubusercontent.com/fc-leeds/MATH1604_2025_2026_data/main"
