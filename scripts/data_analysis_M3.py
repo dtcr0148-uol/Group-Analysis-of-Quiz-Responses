@@ -1,4 +1,4 @@
-from data_exraction_M1 import extract_answers_sequence
+from data_extraction_M1 import extract_answers_sequence
 
 def generate_means_sequence(collated_answers_path):
     with open(collated_answers_path, "r") as f:
